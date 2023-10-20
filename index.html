@@ -6,6 +6,28 @@
     <title>Gestion de Inventario de Hallowen</title>
 </head>
 <body>
-    
+    <h1>Gestion de Inventario de Hallowen</h1>
+
+    <form id="product-table-events" class="inventory-table-styles"></form>
+    <label for="product-name">Nombre: </label>
+    <input type="text" id="product-name" required>
+
+    <label for="product-quantity">Cantidad: </label>
+    <input type="number" id="product-quantity" required>
+
+    <label for="product-price">Precio </label>
+    <input type="number" step="0.01" id="product-price" required>
+
+    <button type="submit">Agregar Producto</button>
+
+    <table id="inventory-table-events" class="inventory-table-styles">
+        <tr>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Acciones</th>
+        </tr>
+    </table>
+    <script type="module" src="/scripts/main.js"></script>
 </body>
 </html>
