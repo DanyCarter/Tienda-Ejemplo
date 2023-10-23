@@ -6,4 +6,5 @@ import { listProductos } from "./listProducts.js"
 */
 
 // Listamos los productos 
+// Primero se cargan todos los estilos y luego ya la tabla
 document.addEventListener("DOMContentLoaded", listProductos)
